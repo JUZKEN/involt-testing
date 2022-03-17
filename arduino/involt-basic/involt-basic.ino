@@ -39,7 +39,7 @@ void loop() {
 
 
   
-  //ADD YOUR CODE HERE
+  analogWrite(3, involtPin[3]);
 
 
  
@@ -115,4 +115,3 @@ void involtSendFunction(String functionName){
   Serial.println('E'); 
   Serial.flush();
 };
-

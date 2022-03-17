@@ -19,16 +19,27 @@
 	<script src="settings.js"></script>
 	<script src="core/involt.js"></script>
 	<script src="core/framework.js"></script> 
+	<style>
+		.wrapper {
+			padding: 50px;
+		}
+	</style>
 </head>
 
 <body>
 
-
-
-	<!--  Your content goes here. You can remove this line.  -->
-	<div id="involthankyou">Thank you for choosing Involt.</div>
-
-
+	<div class="wrapper">
+		<div style="display: block">
+			<h2>Controlar LED</h2>
+			<div class="ard button P3 value-255"> On </div>
+			<div class="ard button P3 value-0"> Off </div>
+		</div>
+		<div style="display: block">
+			<h2>Brilho</h2>
+			<div class="ard rangeslider P3 value-0 range-0-255 step-1"></div>
+		</div>
+	</div>
+	
 
 </body>
 
